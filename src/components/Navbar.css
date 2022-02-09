@@ -1,0 +1,24 @@
+.navbar li {
+	border-radius: 5px;
+}
+
+.navbar li.active {
+	background-color: white;
+    border: 1px solid white;
+}
+.navbar li.active > a {
+	color: rgba(var(--bs-primary-rgb),var(--bs-bg-opacity));
+    background-color: white;
+}
+
+.navbar li > a {
+	color: white;
+}
+
+.navbar .nav-img {
+	width: 50px;
+	text-align: center;
+}
+.navbar li i {
+	font-size: 1rem;
+}
